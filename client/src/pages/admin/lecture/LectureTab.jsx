@@ -17,8 +17,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "sonner";
 
-const MEDIA_API = "https://learnify-server-ph7r.onrender.com/api/v1/media";
-//http://localhost:8080
+const MEDIA_API = "// http://localhost:8080/api/v1/media";
 const LectureTab = () => {
   const [lectureTitle, setLectureTitle] = useState("");
   const [uploadVideInfo, setUploadVideoInfo] = useState(null);
